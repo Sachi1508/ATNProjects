@@ -16,3 +16,10 @@ This has solutions to ATN Homework.
 1. Once ready to merged create a Pull request by Clicking "New Pull Request" on your Repo page.
 
 The Pull request shows up in the "Pull Requests", perform review & changes and then if all good "Merge"!
+
+Note once you code change is pulled and merged you need to rebase your forked repo.
+
+1. `git remote add upstream git@github.com:Sachi1508/ATNProjects.git`
+1. `git pull --rebase upstream master`
+1. `git pull --rebase`
+1. `git push`
